@@ -1,6 +1,6 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
-
+// import "../Images";
 export default function Portfolio() {
   return (
     <div className="tile is-ancestor is-flex-direction-column">
@@ -58,10 +58,10 @@ export default function Portfolio() {
       <section className="section is-large">
       <div className="tile is-parent">
         <article className="tile is-child notification is-info">
-          <p className="title">Password Generator</p>
+          <p className="title">Erie Tech Blog</p>
           <a
             className="subtitle"
-            href="https://github.com/AndrewYoung72/password-generator-AWY"
+            href="https://intense-ridge-37443.herokuapp.com/"
           >
             GitHub Repo
           </a>
