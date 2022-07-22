@@ -1,6 +1,9 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
-// import "../Images";
+// import {CocktailCreations} from "../Images./CocktailCreations.png"
+import CocktailCreations from "../Images/CocktailCreations.png";
+import WeatherDashboard from "../Images/WeatherDashboard.png";
+
 export default function Portfolio() {
   return (
     <div className="tile is-ancestor is-flex-direction-column">
@@ -15,7 +18,7 @@ export default function Portfolio() {
             GitHub Repo
           </a>
           <figure className="image is-4by3">
-            <img src="./images/CocktailCreations.png" alt="project 1"></img>
+            <img src={CocktailCreations} alt="CocktailCreations"></img>
           </figure>
         </article>
       </div>
@@ -31,7 +34,7 @@ export default function Portfolio() {
             GitHub Repo
           </a>
           <figure className="image is-4by3">
-            <img src="images/justParkIt.png" alt="Project 2"></img>
+            <img src="../Images./justParkIt.png" alt="Project 2"></img>
           </figure>
         </article>
       </div>
@@ -48,7 +51,7 @@ export default function Portfolio() {
           </a>
           <figure className="image is-4by3">
             <img
-              src="images/WeatherDashboard.png"
+              src={WeatherDashboard}
               alt="Weather Dashboard"
             ></img>
           </figure>
