@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/awy-portfolio-app/static/css/main.fd628e8b.css",
-    "main.js": "/awy-portfolio-app/static/js/main.dd1ad8b6.js",
+    "main.js": "/awy-portfolio-app/static/js/main.bf4104a3.js",
     "static/media/CocktailCreations.png": "/awy-portfolio-app/static/media/CocktailCreations.b1cee21a6a925ecd9164.png",
+    "static/media/WeatherDashboard.png": "/awy-portfolio-app/static/media/WeatherDashboard.6771b67f59b60a30b498.png",
     "index.html": "/awy-portfolio-app/index.html",
     "main.fd628e8b.css.map": "/awy-portfolio-app/static/css/main.fd628e8b.css.map",
-    "main.dd1ad8b6.js.map": "/awy-portfolio-app/static/js/main.dd1ad8b6.js.map"
+    "main.bf4104a3.js.map": "/awy-portfolio-app/static/js/main.bf4104a3.js.map"
   },
   "entrypoints": [
     "static/css/main.fd628e8b.css",
-    "static/js/main.dd1ad8b6.js"
+    "static/js/main.bf4104a3.js"
   ]
 }
