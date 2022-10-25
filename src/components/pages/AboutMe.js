@@ -1,15 +1,10 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
 
+
 export default function AboutMe() {
   return (
     <div>
-      <section class="hero has-background-info">
-        <div class="hero-body">
-          <p class="title">Andrew Young</p>
-          <p class="subtitle">A little about me</p>
-        </div>
-      </section>
       <section class="section is-medium has-background-info-light">
         <h1 class="title">About Me</h1>
         <h2 class="subtitle">
