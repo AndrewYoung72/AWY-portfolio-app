@@ -20,3 +20,14 @@
 #footer-content {
 color: white;
 }
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5PX;
+  background-color: rgb(236, 236, 236);
+}

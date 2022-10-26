@@ -1,5 +1,6 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
+import resume from "../Images/resume.png"
 
 export default function Resume() {
   return (
@@ -9,7 +10,7 @@ export default function Resume() {
           <button className="button is-hovered">Download My Resume</button>
         </a>
         <figure className="image is-4by3">
-          <img src="img/ResumePhoto.png" alt="my resume"></img>
+          <img src={resume} alt="my resume"></img>
         </figure>
       </div>
     </div>
