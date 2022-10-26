@@ -1,4 +1,22 @@
+#head-t  {
+  position: relative;
+  left: 800px;
+  margin-bottom: 2px;
+  color: white;
+}
+
 .h-image {
-  display: flex;
-  justify-content: flex-end;
+  position: relative;
+  padding: 2px;
+}
+#about-t {
+  border-bottom: solid 2px;
+}
+
+#about-sub {
+  margin: auto;
+}
+
+#footer-content {
+color: white;
 }

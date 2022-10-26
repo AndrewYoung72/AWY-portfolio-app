@@ -6,8 +6,8 @@ export default function AboutMe() {
   return (
     <div>
       <section class="section is-medium has-background-info-light">
-        <h1 class="title">About Me</h1>
-        <h2 class="subtitle">
+        <h1 class="title" id="about-t">About Me</h1>
+        <h2 class="subtitle" id="about-sub">
           The forest is my favorite place to be. That's what brought me to
           Colorado in the mid 1990's, and that's what brought me back to
           Colorado in 2018, with my family. I am not a career driven ladder
@@ -23,7 +23,7 @@ export default function AboutMe() {
         </h2>
       </section>
       <footer class="footer has-background-info">
-        <div class="content has-text-centered">
+        <div class="content has-text-centered" id="footer-content">
           <p>
             CSS by
             <strong> Bulma</strong> site by{" "}
