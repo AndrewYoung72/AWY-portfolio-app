@@ -108,7 +108,10 @@ export default function ContactMe() {
           {errorArea && <h2 style={{ color: "red" }}>{errorArea}</h2>}
         </p>
         <div className="buttons has-addons is-centered" id="submit">
-          <button className="button is-fullwidth is-info is-light" onClick={handleFormSubmit} >
+          <button
+            className="button is-fullwidth is-info is-light"
+            onClick={handleFormSubmit}
+          >
             Submit
           </button>
         </div>
