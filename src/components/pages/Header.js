@@ -2,6 +2,7 @@ import React from "react";
 import "bulma/css/bulma.min.css";
 import meWaterfall from "../Images/meWaterfall.png";
 
+
 export default function Header() {
   return (
     <div className="hero has-background-info">

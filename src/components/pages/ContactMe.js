@@ -47,7 +47,7 @@ export default function ContactMe() {
   };
 
   function checkMessage(message) {
-    return /^[a-zA-Z]{10,}/.test(message);
+    return /(.*[a-z]){10,}/.test(message);
   }
 
   const handleMessageChange = (e) => {
@@ -60,11 +60,11 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="container ">
+    <div id="contact-container" className="section has-background-info-light">
       <div className="field">
         <p className="control has-icons-left has-icons-right">
           <input
-            className="input"
+            className="input is-info"
             name="textMessage"
             type="text"
             placeholder="Name"
@@ -80,7 +80,7 @@ export default function ContactMe() {
       <div className="field">
         <p className="control has-icons-left has-icons-right">
           <input
-            className="input"
+            className="input is-info"
             type="email"
             placeholder="Email"
             name="message"
@@ -96,7 +96,7 @@ export default function ContactMe() {
       <div className="field">
         <p className="control has-icons-left has-icons-right">
           <textarea
-            className="input"
+            className="input is-info"
             name="areaMessage"
             placeholder="Leave A Message"
             value={areaMessage}
@@ -109,7 +109,7 @@ export default function ContactMe() {
         </p>
         <div className="buttons has-addons is-centered" id="submit">
           <button
-            className="button is-fullwidth is-info is-light"
+            className="button is-fullwidth is-info"
             onClick={handleFormSubmit}
           >
             Submit
