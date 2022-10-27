@@ -5,10 +5,17 @@
   color: white;
 }
 
-.h-image {
+#head-image {
   position: relative;
+  left: 1500px;
   padding: 2px;
 }
+
+.head-icons {
+  position: relative;
+  left: 850px;
+}
+
 #about-t {
   border-bottom: solid 2px;
 }
@@ -38,3 +45,7 @@ a {
 /* #contact-container {
   background-image: url("../src/components/Images/vista.JPG");
 } */
+
+.navtabs {
+  position: sticky;
+}

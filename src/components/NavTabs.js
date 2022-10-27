@@ -4,7 +4,7 @@ import React from "react";
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div class="tabs is-centered">
+    <div class="tabs is-centered" >
       <ul>
         <li>
           <a

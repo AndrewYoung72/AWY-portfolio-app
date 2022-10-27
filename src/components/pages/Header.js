@@ -1,19 +1,26 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
-import meWaterfall from "../Images/meWaterfall.png";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export default function Header() {
   return (
-    <div className="hero has-background-info">
+    <div className="hero  is-info">
+      <div className="hero-body">
+        <p className="title" id="head-t">
+          Andrew Young
+        </p>
+        <span className="head-icons">
+          <FontAwesomeIcon icon={brands("square-js")} />
+          <FontAwesomeIcon icon={brands("react")} />
+          <FontAwesomeIcon icon={brands("node")} />
+          <FontAwesomeIcon icon={brands("html5")} />
+          <FontAwesomeIcon icon={brands("slack")} />
+          <FontAwesomeIcon icon={brands("linkedin")} />
+          <FontAwesomeIcon icon={brands("square-github")} />
+        </span>
       
-        <div className="hero-body">
-          <p className="title" id="head-t">Andrew Young</p>
-            <figure className="image is-128x128">
-              <img className="is-rounded" src={meWaterfall} alt="it's me"></img>
-            </figure>
-        </div>
-
+      </div>
     </div>
   );
 }
