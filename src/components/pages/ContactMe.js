@@ -1,7 +1,7 @@
-import {useState} from "react";
+import { useState } from "react";
 import "bulma/css/bulma.min.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid, regular } from "@fortawesome/fontawesome-svg-core/import.macro"; // <-- import styles to be used
 
 export default function ContactMe() {
   const [message, setMessage] = useState("");
@@ -60,10 +60,9 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="tile ">
+    <div className="container ">
       <div className="field">
-        
-          <label className="label">Name</label>
+        <p className="control has-icons-left has-icons-right">
           <input
             className="input"
             name="textMessage"
@@ -71,58 +70,58 @@ export default function ContactMe() {
             placeholder="Name"
             value={textMessage}
             onChange={handleTextChange}
-          ></input>
+          />
+          <span className="icon is-small is-left">
+            <FontAwesomeIcon icon={solid("user")} />
+          </span>
           {errorMessage && <h2 style={{ color: "red" }}>{errorMessage}</h2>}
-        
-      </div>
-      <div className="column is-four-fifths">
-        <label className="label">Email</label>
-        <i class="fa-solid fa-user"></i>
-        <input
-          className="input"
-          type="text"
-          name="message"
-          placeholder="Email"
-          value={message}
-          onChange={handleChange}
-        ></input>
-        {error && <h2 style={{ color: "red" }}>{error}</h2>}
+        </p>
       </div>
       <div className="field">
-        
-          <label className="label">Message</label>
+        <p className="control has-icons-left has-icons-right">
+          <input
+            className="input"
+            type="email"
+            placeholder="Email"
+            name="message"
+            value={message}
+            onChange={handleChange}
+          />
+          <span className="icon is-small is-left">
+            <FontAwesomeIcon icon={regular("envelope")} />
+          </span>
+          {error && <h2 style={{ color: "red" }}>{error}</h2>}
+        </p>
+      </div>
+      <div className="field">
+        <p className="control has-icons-left has-icons-right">
           <textarea
             className="input"
             name="areaMessage"
-            placeholder="Textarea"
+            placeholder="Leave A Message"
             value={areaMessage}
             onChange={handleMessageChange}
-          ></textarea>
+          />{" "}
+          <span className="icon is-small is-left">
+            <FontAwesomeIcon icon={solid("user-pen")} />
+          </span>
           {errorArea && <h2 style={{ color: "red" }}>{errorArea}</h2>}
-        
-        <div className="buttons has-addons is-centered">
-          <button className="button" onClick={handleFormSubmit}>
+        </p>
+        <div className="buttons has-addons is-centered" id="submit">
+          <button className="button is-fullwidth is-info is-light" onClick={handleFormSubmit} >
             Submit
           </button>
         </div>
       </div>
-      <div class="field">
-  <p class="control has-icons-left has-icons-right">
-    <input class="input" type="email" placeholder="Email"></input>
-    <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-check"></i>
-    </span>
-  </p>
-</div>
-<FontAwesomeIcon icon={solid('user-secret')} />
-
-<FontAwesomeIcon icon={icon({name: 'coffee', style: 'solid'})} />
-
-
     </div>
   );
 }
 
+// {/* icons in use */}
+
+// {/* <FontAwesomeIcon icon={solid('user-secret')} /> */}
+// {/* <FontAwesomeIcon icon={regular('coffee')} /> */}
+// {/* <FontAwesomeIcon icon={icon({name: 'coffee', style: 'solid'})} /> */}
+// {/* <FontAwesomeIcon icon={brands('twitter')} /> */}
+// {/* <FontAwesomeIcon icon={"fa-brands fa-github"} /> */}
+// {/* <FontAwesomeIcon icon={regular('envelope')} /> */}
