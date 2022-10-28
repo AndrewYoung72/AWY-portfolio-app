@@ -46,9 +46,7 @@ a {
 #submit {
   padding: 5px;
 }
-/* #contact-container {
-  background-image: url("../src/components/Images/vista.JPG");
-} */
+
 .button {
   margin: 5px;
   padding: 10px;
@@ -57,7 +55,16 @@ a {
   margin: 25px;
 }
 
-.button {
+#download {
   position: relative;
   left: 780px;
+}
+
+#titles {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 5px;
+  background-color: rgb(126, 125, 125);
 }
