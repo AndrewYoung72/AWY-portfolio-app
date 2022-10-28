@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AWY-portfolio-app/static/css/main.1326c4aa.css",
-    "main.js": "/AWY-portfolio-app/static/js/main.cfcd16df.js",
+    "main.css": "/AWY-portfolio-app/static/css/main.00147d72.css",
+    "main.js": "/AWY-portfolio-app/static/js/main.cfc2dcbb.js",
     "static/media/CocktailCreations.png": "/AWY-portfolio-app/static/media/CocktailCreations.b1cee21a6a925ecd9164.png",
     "static/media/TeamDataTracker.png": "/AWY-portfolio-app/static/media/TeamDataTracker.3469fa4516531d670329.png",
     "static/media/EcommerceBackend.png": "/AWY-portfolio-app/static/media/EcommerceBackend.44ec6dd1ed14f0d73f9e.png",
@@ -10,11 +10,11 @@
     "static/media/justParkIt.png": "/AWY-portfolio-app/static/media/justParkIt.1483ed1dcccec4daa8ed.png",
     "static/media/ErieTechBlog.png": "/AWY-portfolio-app/static/media/ErieTechBlog.0da6f7f2ac322e30fe76.png",
     "index.html": "/AWY-portfolio-app/index.html",
-    "main.1326c4aa.css.map": "/AWY-portfolio-app/static/css/main.1326c4aa.css.map",
-    "main.cfcd16df.js.map": "/AWY-portfolio-app/static/js/main.cfcd16df.js.map"
+    "main.00147d72.css.map": "/AWY-portfolio-app/static/css/main.00147d72.css.map",
+    "main.cfc2dcbb.js.map": "/AWY-portfolio-app/static/js/main.cfc2dcbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1326c4aa.css",
-    "static/js/main.cfcd16df.js"
+    "static/css/main.00147d72.css",
+    "static/js/main.cfc2dcbb.js"
   ]
 }
