@@ -49,7 +49,15 @@ a {
 /* #contact-container {
   background-image: url("../src/components/Images/vista.JPG");
 } */
+.button {
+  margin: 5px;
+  padding: 10px;
+}
+#resume-ctr {
+  margin: 25px;
+}
 
-.navtabs {
-  position: sticky;
+.button {
+  position: relative;
+  left: 780px;
 }

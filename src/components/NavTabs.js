@@ -5,7 +5,7 @@ import React from "react";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="tabs is-centered" >
-      <ul>
+      <ul >
         <li>
           <a
             href="#aboutMe"

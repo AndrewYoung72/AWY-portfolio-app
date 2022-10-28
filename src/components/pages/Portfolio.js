@@ -12,7 +12,7 @@ export default function Portfolio() {
     <div className="tile is-ancestor" id="container">
       <div className="tile is-parent">
         <article className="tile is-child notification is-info">
-          <p className="title">Cocktail Creations</p>
+          <a className="title" href="https://jesusrodriguezdev.github.io/Cocktail_Creations/">Cocktail Creations</a>
           <a
             className="subtitle"
             href="https://github.com/JesusRodriguezDev/Cocktail_Creations"
@@ -20,7 +20,7 @@ export default function Portfolio() {
             GitHub Repo
           </a>
           <figure className="image is-4by3">
-            <img src={CocktailCreations} alt="CocktailCreations"></img>
+            <img src={CocktailCreations} alt="CocktailCreations" ></img>
           </figure>
         </article>
       </div>
