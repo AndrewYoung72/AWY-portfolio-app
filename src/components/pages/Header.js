@@ -7,17 +7,16 @@ export default function Header() {
   return (
     <div className="hero  is-info">
       <div className="hero-body">
-        <p className="title" id="head-t">
-          Andrew Young
-        </p>
+       <h1 className="head-t">Andrew Young</h1>
         <span className="head-icons">
-          <FontAwesomeIcon icon={brands("square-js")} />
-          <FontAwesomeIcon icon={brands("react")} />
-          <FontAwesomeIcon icon={brands("node")} />
-          <FontAwesomeIcon icon={brands("html5")} />
-          <FontAwesomeIcon icon={brands("slack")} />
-          <FontAwesomeIcon icon={brands("linkedin")} />
-          <FontAwesomeIcon icon={brands("square-github")} />
+          <FontAwesomeIcon icon={brands("square-js")} className="icon is-medium" />
+          <FontAwesomeIcon icon={brands("react")} className="icon is-medium" />
+          <FontAwesomeIcon icon={brands("node-js")} className="icon is-medium" />
+          <FontAwesomeIcon icon={brands("node")} className="icon is-medium" />
+          <FontAwesomeIcon icon={brands("npm")} className="icon is-medium" />
+          <FontAwesomeIcon icon={brands("html5")} className="icon is-medium" />
+          <FontAwesomeIcon icon={brands("square-git")} className="icon is-medium" />
+          <FontAwesomeIcon icon={brands("css3")} className="icon is-medium" />
         </span>
       
       </div>

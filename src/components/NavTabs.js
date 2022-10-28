@@ -4,11 +4,10 @@ import React from "react";
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div class="tabs is-centered" >
+    <div className="tabs is-centered" >
       <ul>
         <li>
           <a
-            class="is-active"
             href="#aboutMe"
             onClick={() => handlePageChange("AboutMe")}
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -23,7 +22,6 @@ function NavTabs({ currentPage, handlePageChange }) {
 
         <li>
           <a
-            class=""
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -37,7 +35,6 @@ function NavTabs({ currentPage, handlePageChange }) {
 
         <li>
           <a
-            class=""
             href="#resume"
             onClick={() => handlePageChange("Resume")}
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -51,7 +48,6 @@ function NavTabs({ currentPage, handlePageChange }) {
 
         <li>
           <a
-            class=""
             href="#contact"
             onClick={() => handlePageChange("ContactMe")}
             // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link

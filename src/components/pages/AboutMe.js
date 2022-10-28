@@ -1,20 +1,18 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
-import meWaterfall from "../Images/meWaterfall.png";
+
 
 export default function AboutMe() {
   return (
     <div>
-      <section class="section is-medium has-background-info-light">
+      <section className="section is-medium has-background-info-light">
         {/* <figure className="image is-128x128" id="head-image">
           <img  src={meWaterfall} alt="it's me"></img>
         </figure> */}
-        <h1 class="title" id="about-t">
+        <h1 className="title" id="about-t">
           About Me
         </h1>
-        <h2 class="subtitle" id="about-sub">
+        <h2 className="subtitle" id="about-sub">
           The forest is my favorite place to be. That's what brought me to
           Colorado in the mid 1990's, and that's what brought me back to
           Colorado in 2018, with my family. Being a father is, to me, the most
@@ -40,19 +38,16 @@ export default function AboutMe() {
           it.
         </h2>
       </section>
-      <footer class="footer has-background-info">
-        <div class="content has-text-centered" id="footer-content">
+      <footer className="footer has-background-info">
+        <div className="content has-text-centered" id="footer-content">
           <p>
             CSS by
             <strong> Bulma</strong> site by{" "}
             <a href="https://github.com/AndrewYoung72">
               {" "}
               AndrewYoung72{" "}
-              <span className="icon">
-                <FontAwesomeIcon icon={brands("github")} />
-              </span>
             </a>
-            . July 2022.
+            .July 2022.
           </p>
         </div>
       </footer>

@@ -1,6 +1,8 @@
-#head-t  {
-  position: relative;
-  left: 800px;
+.head-t  {
+  display: flex;
+  justify-content: center;
+  font-size:xx-large;
+  font-weight: bolder;
   margin-bottom: 2px;
   color: white;
 }
@@ -13,7 +15,9 @@
 
 .head-icons {
   position: relative;
-  left: 850px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #about-t {
