@@ -1,9 +1,6 @@
-.head-t  {
+.is-size-1  {
   display: flex;
   justify-content: center;
-  font-size:xx-large;
-  font-weight: bolder;
-  margin-bottom: 2px;
   color: white;
 }
 
@@ -74,4 +71,8 @@ a {
   border: 2px;
   border-radius: 5px;
   box-shadow: 2px 2px 2px black;
+}
+#g-font {
+ position: relative;
+ left: 400px;
 }

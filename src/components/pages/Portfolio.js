@@ -30,7 +30,7 @@ export default function Portfolio() {
             href="https://github.com/JesusRodriguezDev/Cocktail_Creations"
           >
             <span className="icon is-medium is-left">
-              <FontAwesomeIcon icon={brands("github")} />
+              <FontAwesomeIcon icon={brands("github")} id="g-font" />
             </span>
           </a>
         </article>
@@ -46,14 +46,14 @@ export default function Portfolio() {
             Just Park It
           </a>
           <figure className="image is-4by3">
-            <img src={justParkIt} alt="Project 2"></img>
+            <img src={justParkIt} alt="Project 2" id="projects"></img>
           </figure>
           <a
             className="subtitle"
             href="https://github.com/Noah8863/Just-Park-It"
           >
             <span className="icon is-medium is-left">
-              <FontAwesomeIcon icon={brands("github")} />
+              <FontAwesomeIcon icon={brands("github")} id="g-font" />
             </span>
           </a>
         </article>
@@ -69,14 +69,14 @@ export default function Portfolio() {
             Weather Dashboard
           </a>
           <figure className="image is-4by3">
-            <img src={WeatherDashboard} alt="Weather Dashboard"></img>
+            <img src={WeatherDashboard} alt="Weather Dashboard" id="projects"></img>
           </figure>
           <a
             className="subtitle"
             href="https://github.com/AndrewYoung72/06-weather-dashboard-AWY"
           >
             <span className="icon is-medium is-left">
-              <FontAwesomeIcon icon={brands("github")} />
+              <FontAwesomeIcon icon={brands("github")} id="g-font" />
             </span>
           </a>
         </article>
@@ -88,14 +88,14 @@ export default function Portfolio() {
             Erie Tech Blog
           </p>
           <figure className="image is-4by3">
-            <img src={ErieTechBlog} alt="Erie Tech Blog"></img>
+            <img src={ErieTechBlog} alt="Erie Tech Blog" id="projects"></img>
           </figure>
           <a
             className="subtitle"
             href="https://intense-ridge-37443.herokuapp.com/"
           >
             <span className="icon is-medium is-left">
-              <FontAwesomeIcon icon={brands("github")} />
+              <FontAwesomeIcon icon={brands("github")} id="g-font" />
             </span>
           </a>
         </article>
@@ -107,14 +107,14 @@ export default function Portfolio() {
             E-Commerce-Backend
           </p>
           <figure className="image is-4by3">
-            <img src={EcommerceBackend} alt=""></img>
+            <img src={EcommerceBackend} alt="" id="projects"></img>
           </figure>
           <a
             className="subtitle"
             href="https://github.com/AndrewYoung72/sequalize-e-commerce-back-end"
           >
             <span className="icon is-medium is-left">
-              <FontAwesomeIcon icon={brands("github")} />
+              <FontAwesomeIcon icon={brands("github")} id="g-font" />
             </span>
           </a>
         </article>
@@ -126,14 +126,14 @@ export default function Portfolio() {
             Team Data Tracker
           </p>
           <figure className="image is-4by3">
-            <img src={TeamDataTracker} alt=""></img>
+            <img src={TeamDataTracker} alt="" id="projects"></img>
           </figure>
           <a
             className="subtitle"
             href="https://github.com/AndrewYoung72/Team-data-tracker"
           >
             <span className="icon is-medium is-left">
-              <FontAwesomeIcon icon={brands("github")} />
+              <FontAwesomeIcon icon={brands("github")} id="g-font" />
             </span>
           </a>
         </article>

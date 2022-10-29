@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="hero  is-info">
       <div className="hero-body">
-       <h1 className="head-t">Andrew Young</h1>
+       <h1 className="is-size-1">Andrew Young</h1>
         <span className="head-icons">
           <FontAwesomeIcon icon={brands("square-js")} className="icon is-medium" />
           <FontAwesomeIcon icon={brands("react")} className="icon is-medium" />
