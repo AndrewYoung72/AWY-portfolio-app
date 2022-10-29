@@ -22,8 +22,8 @@ export default function Portfolio() {
             Cocktail Creations
           </a>
 
-          <figure className="image is-4by3">
-            <img src={CocktailCreations} alt="CocktailCreations"></img>
+          <figure className="image is-4by3" >
+            <img src={CocktailCreations} alt="CocktailCreations" id="projects"></img>
           </figure>
           <a
             className="subtitle"
