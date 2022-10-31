@@ -13,7 +13,7 @@ export default function Portfolio() {
   return (
     <div className="tile is-ancestor" id="container">
       <div className="tile is-parent">
-        <article className="tile is-child notification is-info">
+        <article className="tile is-child notification is-info" id="tiles">
           <a
             className="title"
             id="titles"
@@ -37,7 +37,7 @@ export default function Portfolio() {
       </div>
 
       <div className="tile is-parent">
-        <article className="tile is-child notification is-info">
+        <article className="tile is-child notification is-info" id="tiles">
           <a
             className="title"
             id="titles"
@@ -60,7 +60,7 @@ export default function Portfolio() {
       </div>
 
       <div className="tile is-parent">
-        <article className="tile is-child notification is-info">
+        <article className="tile is-child notification is-info" id="tiles">
           <a
             className="title"
             id="titles"
@@ -83,7 +83,7 @@ export default function Portfolio() {
       </div>
 
       <div className="tile is-parent">
-        <article className="tile is-child notification is-info">
+        <article className="tile is-child notification is-info" id="tiles">
           <p className="title" id="titles">
             Erie Tech Blog
           </p>
@@ -102,7 +102,7 @@ export default function Portfolio() {
       </div>
 
       <div className="tile is-parent">
-        <article className="tile is-child notification is-info">
+        <article className="tile is-child notification is-info" id="tiles">
           <p className="title" id="titles">
             E-Commerce-Backend
           </p>
@@ -121,7 +121,7 @@ export default function Portfolio() {
       </div>
 
       <div className="tile is-parent">
-        <article className="tile is-child notification is-info">
+        <article className="tile is-child notification is-info" id="tiles">
           <p className="title" id="titles">
             Team Data Tracker
           </p>

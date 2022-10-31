@@ -68,11 +68,17 @@ a {
 }
 
 #projects {
-  border: 2px;
+  border: 1px;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 2px rgb(89, 87, 87);
 }
 #g-font {
  position: relative;
  left: 400px;
+}
+
+#tiles {
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(89, 87, 87);
 }
